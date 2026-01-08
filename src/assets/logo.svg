@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- White circular background -->
+  <circle cx="100" cy="100" r="95" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Castle Tower -->
+  <!-- Base (black) -->
+  <rect x="70" y="120" width="60" height="20" fill="black"/>
+  
+  <!-- Middle section (white with red stars) -->
+  <rect x="75" y="80" width="50" height="40" fill="white" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Red stars -->
+  <g fill="red">
+    <path d="M 90 95 L 92 100 L 97 100 L 93 103 L 95 108 L 90 105 L 85 108 L 87 103 L 83 100 L 88 100 Z"/>
+    <path d="M 100 95 L 102 100 L 107 100 L 103 103 L 105 108 L 100 105 L 95 108 L 97 103 L 93 100 L 98 100 Z"/>
+    <path d="M 110 95 L 112 100 L 117 100 L 113 103 L 115 108 L 110 105 L 105 108 L 107 103 L 103 100 L 108 100 Z"/>
+  </g>
+  
+  <!-- Top section (green with battlements) -->
+  <rect x="75" y="50" width="50" height="30" fill="#00843D" stroke="black" stroke-width="1.5"/>
+  <!-- Battlements -->
+  <rect x="75" y="50" width="10" height="8" fill="#00843D" stroke="black" stroke-width="1"/>
+  <rect x="90" y="50" width="10" height="8" fill="#00843D" stroke="black" stroke-width="1"/>
+  <rect x="105" y="50" width="10" height="8" fill="#00843D" stroke="black" stroke-width="1"/>
+  <rect x="120" y="50" width="5" height="8" fill="#00843D" stroke="black" stroke-width="1"/>
+  
+  <!-- Arabic text -->
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="10" fill="black" text-anchor="middle" font-weight="bold">الاتحاد السوري لشركات التأمين</text>
+  
+  <!-- English text -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="8" fill="black" text-anchor="middle" font-weight="bold">SYRIAN INSURANCE FEDERATION</text>
+</svg>
+

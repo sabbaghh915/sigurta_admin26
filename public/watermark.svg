@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Dark teal circular background -->
+  <circle cx="100" cy="100" r="100" fill="#1e4d72"/>
+  
+  <!-- Three stars above eagle -->
+  <g fill="#d4af37" opacity="0.9">
+    <path d="M 60 45 L 62.5 52.5 L 70 50 L 65 56 L 72.5 58.5 L 65 61 L 70 67 L 62.5 64.5 L 60 72 L 57.5 64.5 L 50 67 L 55 61 L 47.5 58.5 L 55 56 L 50 50 L 57.5 52.5 Z" transform="rotate(0 60 58.5)"/>
+    <path d="M 100 35 L 102.5 42.5 L 110 40 L 105 46 L 112.5 48.5 L 105 51 L 110 57 L 102.5 54.5 L 100 62 L 97.5 54.5 L 90 57 L 95 51 L 87.5 48.5 L 95 46 L 90 40 L 97.5 42.5 Z" transform="rotate(0 100 48.5)"/>
+    <path d="M 140 45 L 142.5 52.5 L 150 50 L 145 56 L 152.5 58.5 L 145 61 L 150 67 L 142.5 64.5 L 140 72 L 137.5 64.5 L 130 67 L 135 61 L 127.5 58.5 L 135 56 L 130 50 L 137.5 52.5 Z" transform="rotate(0 140 58.5)"/>
+  </g>
+  
+  <!-- Stylized eagle -->
+  <g fill="#d4af37" opacity="0.85">
+    <!-- Body -->
+    <ellipse cx="100" cy="130" rx="20" ry="30"/>
+    
+    <!-- Head -->
+    <circle cx="85" cy="115" r="12"/>
+    <path d="M 75 115 Q 75 110 70 110" stroke="#d4af37" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Left wing (facing left) -->
+    <path d="M 80 125 Q 50 120 45 135 Q 40 150 50 165 Q 60 155 70 145 Q 75 135 80 125" fill="#d4af37"/>
+    <path d="M 60 140 L 55 150 M 65 145 L 60 155" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Right wing -->
+    <path d="M 120 125 Q 150 120 155 135 Q 160 150 150 165 Q 140 155 130 145 Q 125 135 120 125" fill="#d4af37"/>
+    <path d="M 140 140 L 145 150 M 135 145 L 140 155" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Tail -->
+    <path d="M 100 155 Q 90 170 85 180 Q 95 175 100 165 Q 105 175 115 180 Q 110 170 100 155" fill="#d4af37"/>
+    <path d="M 95 165 L 90 172 M 105 165 L 110 172" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Legs and talons -->
+    <path d="M 95 155 L 95 170 M 105 155 L 105 170" stroke="#d4af37" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 95 170 L 90 175 M 95 170 L 100 175 M 105 170 L 110 175 M 105 170 L 100 175" stroke="#d4af37" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
