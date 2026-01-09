@@ -1,6 +1,6 @@
 // src/services/adminApi.ts
 const API_BASE_URL =
-  (import.meta.env.VITE_API_URL?.replace(/\/$/, "")) || "http://localhost:3000/api";
+  (import.meta.env.VITE_API_URL?.replace(/\/$/, "")) || "https://node.husam.club/api";
 
 const getToken = () => {
   const raw =
